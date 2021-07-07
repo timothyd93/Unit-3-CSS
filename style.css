@@ -1,6 +1,5 @@
 body {
-  /* sets the background for all used space (if a full screen
-    isn't used then it will fill to fit a full screen) */
+  /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
   background-image: url(media/beach.jpg);
 }
 
