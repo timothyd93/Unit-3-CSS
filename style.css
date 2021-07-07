@@ -1,9 +1,26 @@
-body {
-  /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
-  background-image: url(media/beach.jpg);
+/* using . allows you to call on a class in css */
+.head {
+  background-color: red; /* sets background color around the .head text */
+  text-align: center; /* places text in the center of its parent element */
 }
 
-h1 {
-  /* sets background color around the h1 text */
-  background-color: red;
+.beach {
+  background-image: url(media/beach.jpg); /* sets the background around the .beach text */
+  height: 50vh; /* sets the height of the element (vh operates in relation to the screen's height */
+  border: 8px solid black; /* creates a colored border around the element */
+}
+
+.beta {
+  background-color: royalblue;
+  width: 50vw; /* sets the width of the element (vw operates in relation to the screen's width */
+  padding: 20px 8px 6px 7px; /* adds padding to the inside of an element in the order of top, right, bottom, and left. padding is the distance of an element to its border. */
+}
+
+/*using # allows you to call on an id in css */
+#beta2 {
+  width: 75vw;
+  margin: 50px 8px 6px 20px; /* sets the margin around an element in the order of top, right, bottom, left. margin is the distance between an element and the elements around it.*/
+  color: white; /* sets the color of the element, in this case it's the font size */
+  text-align: right; /* places text on the right side of an element */
+  font-size: 5vh; /* changes font size */
 }
